@@ -12,13 +12,13 @@ function App() {
       <header id="header">
         {headerJSX}
       </header>
-      <main>
+      <main id="main">
 
       </main>
       <aside id="aside">
         {asideJSX}
       </aside>
-      <footer>
+      <footer id="footer">
 
       </footer>
     </>
