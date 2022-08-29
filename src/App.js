@@ -1,18 +1,22 @@
+import InsertAside from "./aside";
+import InsertHeader from "./header";
+import "./style.css"
 
+const imageOne = "";
 
+const asideJSX = InsertAside();
+const headerJSX = InsertHeader();
 function App() {
   return(
     <>
-      <header>
-        <h1>
-          HELLO WORLD!
-        </h1>
+      <header id="header">
+        {headerJSX}
       </header>
       <main>
 
       </main>
-      <aside>
-        
+      <aside id="aside">
+        {asideJSX}
       </aside>
       <footer>
 
