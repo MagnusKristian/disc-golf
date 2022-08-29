@@ -3,7 +3,7 @@ export default function InsertHeader() {
     return (
       <>
         <h1 className="logo">
-        DISC-SHOP
+        DISC-SHOP     ddddddddd
         </h1>
         <div id="search">
         <input type="text" placeholder="Search"></input>
@@ -18,7 +18,7 @@ export default function InsertHeader() {
 
 const header = <>
 <h1 className="logo">
-DISC-SHOP
+DISC-SHOP sssssssssssssss
 </h1>
 <div id="search">
 <input type="text" placeholder="Search"></input>
