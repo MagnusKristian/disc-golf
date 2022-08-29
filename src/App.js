@@ -1,11 +1,13 @@
 import InsertAside from "./aside";
+import { aside } from "./aside";
 import InsertHeader from "./header";
 import "./style.css"
 
-const imageOne = "";
 
 const asideJSX = InsertAside();
 const headerJSX = InsertHeader();
+
+
 function App() {
   return(
     <>
@@ -17,6 +19,7 @@ function App() {
       </main>
       <aside id="aside">
         {asideJSX}
+        {aside}
       </aside>
       <footer id="footer">
 
