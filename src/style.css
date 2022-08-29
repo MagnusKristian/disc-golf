@@ -4,4 +4,20 @@ body{
 
 #header{
   border:"1px solid black";
+  background-color: green;
+}
+
+#main{
+  border:"1px solid black";
+  background-color: aqua;
+}
+
+#aside{
+  border:"1px solid black";
+  background-color: red;
+}
+
+#footer{
+  border:"1px solid black";
+  background-color: purple;
 }
