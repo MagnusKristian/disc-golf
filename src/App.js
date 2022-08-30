@@ -6,6 +6,7 @@ import { footer } from "./footer";
 import InsertHeader from "./header";
 import "./style.css"
 import { aside } from "./aside";
+import { Article } from './components/Article'
 
 
 // const asideJSX = InsertAside();
@@ -22,6 +23,8 @@ function App() {
       <main id="main">
         {main}
       </main>
+
+      <Article title="My Article" content="This is my article" color="#252525" />
 
       <aside id="aside">
         {/* {asideJSX} */}
